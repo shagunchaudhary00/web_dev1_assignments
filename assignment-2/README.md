@@ -9,4 +9,4 @@
 * my image.jpeg - Profile picture 
 
 ### Purpose
-This project is a personal portfolio website built using HTML and css showcase my basic web development skills with css.
+This project is a personal portfolio website built using HTML and CSS showcase my basic web development skills with CSS .
