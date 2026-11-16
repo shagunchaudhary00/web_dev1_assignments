@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">My Portfolio</div>
+        <nav class="nav-links">
+            
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+    <main>
+    <section class= "hero">
+        <div class ="hero-text">
+            <h1>Hi, I am <br><span class="animated-title">Full Stack Developer</span></h1>
+            <p>Building modern web-applications with MERN stack.</p>
+        </div>
+        <div class="hero-image">
+            <img src="my image.jpeg" alt="My Profile Photo" width="230" height="230">
+        </div>
+        </section>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! My name is Shagun Chaudhary. I am a web development student passionate about learning and building creative projects. This is my portfolio website where I showcase my skills and projects.</p>
+        </section>
+        <section id="skills" class="section">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Beginner</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Beginner</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Learning</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+            <div class="projects-vertical-container">
+                <div class="project-card-large">
+                    <h3>Project 1</h3>
+                    <p>A simple HTML & CSS webpage.</p>
+                </div>
+                <div class="project-card-large">
+                    <h3>Project 2</h3>
+                    <p>Another awesome mini project.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section contact-section">
+            <h2>Contact Me</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form">
+                    <label for="message">Message:</label>
+                    <textarea id="message" rows="4" placeholder="write your message" required></textarea>
+                </div>
+                <button type="submit" class="button">Send</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Shagun Chaudhary. All rights reserved.</p>
+    </footer>
+
+    <a href="#" class="back-to-top">↑ Back to Top</a>
+
+</body>
+</html>
